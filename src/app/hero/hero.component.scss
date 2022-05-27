@@ -1,0 +1,61 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: url("/assets/img/career.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title1 {
+    animation-name: moveRight;
+    animation-duration: 1s;
+    color: #41817e;
+}
+
+.title2 {
+    animation-name: moveLeft;
+    animation-duration: 4s;
+    color: #2a97bf;
+}
+
+.title3 {
+    animation-name: moveRight;
+    animation-duration: 1.3s;
+    color: #ff3630;
+    margin-bottom: 10px;
+}
+
+@keyframes moveRight {
+    0% {
+        opacity: 0;
+        transform: translatex(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveLeft {
+    0% {
+        opacity: 0;
+        transform: traslate(-150px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate();
+    }
+}
