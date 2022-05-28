@@ -1,1 +1,23 @@
-<p>about works!</p>
+<div class="container mt-5">
+
+    <div class="row align-items-center text-center ">
+        <div class="col-md-6  cl-sm-5 mt-5 ">
+            <img class="myPic img-fluid" src="/assets/img/Pouyan2.jpeg" alt="">
+        </div>
+
+        <div class="col-md-6">
+            <h4 class="fw-bold mb-2 mt-5 ">About Me</h4>
+            <p class="text">My name is Pouyan and I live in Vienna. I studied industrial engineering in Iran. recently graduated from the CodeFactory Institute in Vienna as a Full Stack Web developer</p>
+        </div>
+    </div>
+</div>
+
+
+<h3 class="text-center   fw-bold">What i use in my projects<span>:</span> </h3>
+
+<div class="row text-center align-items-center  mt-5">
+    <div *ngFor="let logo of logos" class="col-6 col-sm-4 col-md-3 col-lg-2 ">
+        <img class="logo img-fluid" src="{{logo.src}}" alt="">
+        <p>{{logo.name}}</p>
+    </div>
+</div>
