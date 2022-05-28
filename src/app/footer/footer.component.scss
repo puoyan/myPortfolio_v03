@@ -1,0 +1,17 @@
+.footerItems {
+    background-color: #a5bfc0;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // min-width: 700px;
+    box-shadow: 0px 1px 8px 0px;
+    flex-direction: column;
+    // margin-top: 10vh;
+}
+
+p {
+    font-size: 15px;
+    font-weight: bolder;
+    color: #134050;
+}
