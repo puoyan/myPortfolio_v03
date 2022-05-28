@@ -1,1 +1,31 @@
-<p>projects works!</p>
+<div class="container mt-5">
+    <header class="page-header m-5">
+        <h4>FrontEnd and BackEnd Code Reviews </h4>
+    </header>
+
+    <ul class="timeline">
+        <div *ngFor="let project of projects">
+            <li>
+                <div class="tldate">{{project.date}}</div>
+            </li>
+            <li class="{{project.leftPosition}}">
+                <div class="tl-circ"></div>
+                <div class="timeline-panel">
+                    <div class="tl-heading">
+                        <img src="{{project.image}}" alt="">
+                        <h4 class=" text-start mt-2">{{project.name}}</h4>
+                    </div>
+                    <div class="tl-body">
+
+                        <p><small class=" fs-6 fw-bold"> {{project.tech}} </small></p>
+                        <p class="text-muted mb-2">{{project.description}}</p>
+                        <a class="text-decoration-none  text-secondary " href="{{project.git}}"> <i class="fa-brands fa-github"></i> Github</a>
+                    </div>
+                </div>
+            </li>
+
+
+
+
+        </div>
+    </ul>
