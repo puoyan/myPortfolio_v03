@@ -9,6 +9,16 @@ export class ProjectsComponent implements OnInit {
 
 projects = [
   {
+    name:"Code Review 15",
+    date:"21.06.2022",
+    image:"/assets/img/Java.png",
+    tech:"Java - Mobile Phone Contact list",
+    description:"able to store, modify, remove and query contact name,Qiut,print list of contact, and search/find contact",
+    git:"https://github.com/puoyan/Mobile_Phone-_Contact_List",
+    leftPosition:"timeline-inverted"
+  },
+
+  {
     name:"Code Review 14",
     date:"25.05.2022",
     image:"/assets/img/Java.png",
