@@ -10,7 +10,7 @@ export class ProjectsComponent implements OnInit {
     {
       name: 'Code Review 18',
       date: '26.07.2022',
-      image: '/assets/img/logo/react.svg',
+      image: '/assets/img/cr-img/cr18.png',
       tech: 'React - Expense Tracker ',
       description:
         'user can add Expense and filter the Expenses   with Visual Chart',
