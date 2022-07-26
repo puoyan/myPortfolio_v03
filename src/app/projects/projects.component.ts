@@ -8,6 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class ProjectsComponent implements OnInit {
   projects = [
     {
+      name: 'Code Review 18',
+      date: '26.07.2022',
+      image: '/assets/img/logo/react.svg',
+      tech: 'React - Expense Tracker ',
+      description:
+        'user can add Expense and filter the Expenses   with Visual Chart',
+      git: 'https://github.com/puoyan/expense_tracker',
+      leftPosition: '',
+    },
+    {
       name: 'Code Review 17',
       date: '08.07.2022',
       image: '/assets/img/logo/react.svg',
